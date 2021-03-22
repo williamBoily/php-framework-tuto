@@ -1,4 +1,9 @@
 {
 	"name": "william/app",
-	"require": {}
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"App\\": "src/"
+		}
+	}
 }
